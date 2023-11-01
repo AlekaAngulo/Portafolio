@@ -209,3 +209,18 @@ flex-direction: column;
     font-size: 16px;
     line-height: 18.78px;
 }
+.titulodos{
+    font-family: ralewey;
+    font-size: 32px;
+    line-height: 37.57px;
+    text-align: center;
+    margin-top: 25px;
+}
+.contacto{
+    background-color:#EAF2FD;
+    width: 1,440px;
+    height: 788px;
+    padding: 64px 64px 64px 0px;
+    gap: 10px;
+    
+}
