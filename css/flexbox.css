@@ -1,0 +1,211 @@
+.container{
+    
+    display: flex;
+    width: 1,100px;
+    height: 88px;
+    justify-content: space-between;
+    padding: 32px 0px 32px 0px;
+    
+    
+}
+.containermenu{
+    display: flex;
+}
+
+.presentacion{
+    display:flex;
+    width: 1,100px;
+    height: 368px;
+    justify-content: space-between;
+   
+}
+.redes{
+    display: flex;
+    margin-top: 25px;
+    width: 751px;
+    height: 264px;
+    gap: 24px;
+
+}
+.divpresentacion{
+display: flex;
+flex-direction: column;
+
+}
+
+.presentacion .divpresentacion div h3{
+    font-family: raleway;
+    font-size: 52px;
+    line-height: 61.05px;
+}
+.foto{
+    border-radius: 50%;
+    width: 368px;
+    height: 368px;
+}
+.sobremi{
+    background-color:#EAF2FD;
+    width: 1,440px;
+    height: 383px;
+    padding: 64px 64px 64px 0px;
+    gap: 10px;
+}
+.sobremi .soy h3{
+    font-family: raleway;
+    font-size: 32px;
+    line-height: 37.57px;
+}
+
+.soy p{
+    font-family: raleway;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: justify;
+}
+#continuacion{
+    margin-top: 25px;
+}
+
+.areas{
+    display: flex;
+    flex-direction: column;
+    width: 1,440px;
+    height: 1,245px;
+    gap: 88px;
+}
+
+.areas .skill h3{
+    font-family: ralewey;
+    font-size: 32px;
+    line-height: 37.57px;
+    text-align: center;
+}
+.skill{
+    width: 1,136;
+    height: 244px;
+    gap: 32px;
+}
+.skill ul{
+    width: 1,136px;
+    display: flex;
+    height: 174px;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 32px;
+
+}
+.skill ul li{
+    font-family: raleway;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    width: 176px;
+}
+.imagenhtml{
+    margin-top: 100px;
+}
+.imagencss{
+    margin-top: 90px;
+}
+.imagenjavas{
+    margin-top: 100px;
+}
+.imagennode{
+    margin-top: 100px;
+}
+.imagenreact{
+    margin-top: 100px;
+}
+.hobbies h3{
+    font-family: ralewey;
+    font-size: 32px;
+    line-height: 37.57px;
+    text-align: center;
+
+}
+
+.hobbies{
+    width: 1,136;
+    height: 244px;
+    gap: 32px;
+
+}
+.hobbies ul{
+    width: 1,136px;
+    display: flex;
+    height: 174px;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 32px;
+
+}
+
+.hobbies ul li{
+    font-family: raleway;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    width: 176px;
+
+}
+.imagenoirmusica{
+    margin-top: 100px;
+}
+.imagencake{
+    margin-top: 100px;
+}
+.manualidades{
+    margin-top: 100px;
+}
+.scrapbook{
+    margin-top: 100px;
+}
+.bricolaje{
+    margin-top: 100px;
+}
+.academica{
+    width: 1,440px;
+    height: 581px;
+    padding-top: 82px;
+    gap: 32px;
+    background-color: #EAF2FD;
+    ;
+}
+.academica h3{
+    font-family: ralewey;
+    font-size: 32px;
+    line-height: 37.57px;
+    text-align: center;
+
+}
+.academica .contenedorAcademica{
+    display: flex;
+    width: 1,136px;
+    height: 347px;
+    gap: 16px;
+    padding-top: 32px;
+    justify-content: space-between;
+
+}
+.contenedorAcademica .academicaUno{
+    width: 368px;
+    height: 286px;
+    background-color: #FFFFFF;
+   
+}
+.imagenacauno{
+    text-align: center;
+    margin-top: 80px;
+}
+.textoacauno{
+    margin-top: 100px;
+    font-family: raleway;
+}
+#especialidad{
+   text-align: left; 
+  font-size: 22px;
+  line-height: 25.83px;    
+}
+#año{
+    text-align: left;
+    font-size: 16px;
+    line-height: 18.78px;
+}
