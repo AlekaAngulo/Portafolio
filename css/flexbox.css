@@ -75,7 +75,7 @@ flex-direction: column;
 }
 
 .areas .skill h3{
-    font-family: ralewey;
+    font-family: raleway;
     font-size: 32px;
     line-height: 37.57px;
     text-align: center;
@@ -170,7 +170,7 @@ flex-direction: column;
     ;
 }
 .academica h3{
-    font-family: ralewey;
+    font-family: raleway;
     font-size: 32px;
     line-height: 37.57px;
     text-align: center;
@@ -210,7 +210,7 @@ flex-direction: column;
     line-height: 18.78px;
 }
 .titulodos{
-    font-family: ralewey;
+    font-family: raleway;
     font-size: 32px;
     line-height: 37.57px;
     text-align: center;
@@ -234,5 +234,50 @@ flex-direction: column;
 .formulario{
     display: flex;
     flex-direction: column;
+    margin-top: 16px;
+    gap: 23.5px;
+
 }
+.control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: raleway;
+    border-color:#F5F5F5;
+}
+.contenedorformulario h3{
+    font-size: 32px;
+    font-family: raleway;
+    line-height: 37.57px;
+    color: #464646;
+    margin-bottom: 16px;
+}
+.contenedorformulario p{
+    font-family: raleway;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+#mensaje{
+    height: 133px;
+}
+.boton{
+    width: 144px;
+    height: 51px;
+    padding: 16px;
+    gap: 10px;
+    background-color:#2A7AE4;
+    font-size: 16px;
+    font-family: raleway;
+    color:#FFFFFF;
+    border-color: #e2dbdb;
+
+}
+::placeholder{
+    color: #A2A2A2;
+}
+#email ::placeholder{
+    color:#2A7AE4;
+}
+
 
