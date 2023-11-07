@@ -261,6 +261,7 @@ flex-direction: column;
 #mensaje{
     height: 133px;
 }
+
 .boton{
     width: 144px;
     height: 51px;
@@ -279,5 +280,4 @@ flex-direction: column;
 #email ::placeholder{
     color:#2A7AE4;
 }
-
 
