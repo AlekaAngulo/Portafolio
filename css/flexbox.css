@@ -1,10 +1,8 @@
 .container{
     
     display: flex;
-    width: 1,100px;
-    height: 88px;
     justify-content: space-between;
-    padding: 32px 0px 32px 0px;
+    padding: 32px 64px 32px 64px;
     
     
 }
@@ -14,23 +12,20 @@
 
 .presentacion{
     display:flex;
-    width: 1,100px;
-    height: 368px;
     justify-content: space-between;
-   
+   padding-right: 64px;
+   padding-left: 64px;
 }
 .redes{
     display: flex;
     margin-top: 25px;
-    width: 751px;
-    height: 264px;
     gap: 24px;
 
 }
 .divpresentacion{
 display: flex;
 flex-direction: column;
-
+padding-right: 54px;
 }
 
 .presentacion .divpresentacion div h3{
@@ -45,10 +40,9 @@ flex-direction: column;
 }
 .sobremi{
     background-color:#EAF2FD;
-    width: 1,440px;
-    height: 383px;
-    padding: 64px 64px 64px 0px;
+    padding: 64px 64px 64px 64px;
     gap: 10px;
+    
 }
 .sobremi .soy h3{
     font-family: raleway;
@@ -58,9 +52,10 @@ flex-direction: column;
 
 .soy p{
     font-family: raleway;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 18.78px;
-    text-align: justify;
+    text-align:left;
+    width: 50%;
 }
 #continuacion{
     margin-top: 25px;
@@ -69,8 +64,6 @@ flex-direction: column;
 .areas{
     display: flex;
     flex-direction: column;
-    width: 1,440px;
-    height: 1,245px;
     gap: 88px;
 }
 
@@ -80,11 +73,7 @@ flex-direction: column;
     line-height: 37.57px;
     text-align: center;
 }
-.skill{
-    width: 1,136;
-    height: 244px;
-    gap: 32px;
-}
+
 .skill ul{
     width: 1,136px;
     display: flex;
@@ -92,6 +81,8 @@ flex-direction: column;
     justify-content: space-between;
     gap: 16px;
     padding-top: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
 
 }
 .skill ul li{
@@ -124,10 +115,7 @@ flex-direction: column;
 }
 
 .hobbies{
-    width: 1,136;
-    height: 244px;
-    gap: 32px;
-
+   
 }
 .hobbies ul{
     width: 1,136px;
@@ -136,6 +124,8 @@ flex-direction: column;
     justify-content: space-between;
     gap: 16px;
     padding-top: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
 
 }
 
@@ -162,8 +152,6 @@ flex-direction: column;
     margin-top: 100px;
 }
 .academica{
-    width: 1,440px;
-    height: 581px;
     padding-top: 82px;
     gap: 32px;
     background-color: #EAF2FD;
@@ -178,16 +166,14 @@ flex-direction: column;
 }
 .academica .contenedorAcademica{
     display: flex;
-    width: 1,136px;
-    height: 347px;
     gap: 16px;
-    padding-top: 32px;
+    padding: 32px 64px;
     justify-content: space-between;
+
 
 }
 .contenedorAcademica .academicaUno{
-    width: 368px;
-    height: 286px;
+    width: 30%;
     background-color: #FFFFFF;
    
 }
