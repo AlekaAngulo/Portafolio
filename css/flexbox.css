@@ -39,6 +39,8 @@ padding-right: 54px;
     height: 368px;
 }
 .sobremi{
+    width: 100%;
+    min-width: 768px;
     background-color:#EAF2FD;
     padding: 64px 64px 64px 64px;
     gap: 10px;
@@ -48,6 +50,8 @@ padding-right: 54px;
     font-family: raleway;
     font-size: 32px;
     line-height: 37.57px;
+    margin-bottom: 20px;
+    padding-left: 64px;
 }
 
 .soy p{
@@ -55,7 +59,8 @@ padding-right: 54px;
     font-size: 20px;
     line-height: 18.78px;
     text-align:left;
-    width: 50%;
+    width: 60%;
+    padding-left: 64px;
 }
 #continuacion{
     margin-top: 25px;
@@ -65,6 +70,8 @@ padding-right: 54px;
     display: flex;
     flex-direction: column;
     gap: 88px;
+    min-width: 768px;
+    width: 100%;
 }
 
 .areas .skill h3{
@@ -151,9 +158,9 @@ padding-right: 54px;
 }
 .academica{
     padding-top: 82px;
-    gap: 32px;
     background-color: #EAF2FD;
-    ;
+    width: 100%;
+    min-width: 896PX;
 }
 .academica h3{
     font-family: raleway;
@@ -202,15 +209,15 @@ padding-right: 54px;
 }
 .contacto{
     background-color:#EAF2FD;
-    width: 1,440px;
-    height: 788px;
-    padding: 64px 64px 64px 64px;
+    width: 90%;
+    min-width: 768px;
+    height: 688px;
+    padding: 64px 64px;
     gap: 10px;
     
 }
 .contenedorContacto{
     display: flex;
-    width: 1,136px;
     height: 660px;
     padding-top: 64px;
     gap: 16px;
